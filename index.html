@@ -3,16 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>WACCA Song Viewer</title>
-    <script src="script.js" type="module"></script>
+    <script type="module" src="script.js"></script>
+    <style>
+        .albumart {
+            width: 25%
+        }
+    </style>
 </head>
 <body>
-    <!--https://issuetracker.google.com/issues/319531488?pli=1-->
-    <!--planning to switch to uploading to github repo for direct audio embed instead of gdrive iframe-->
-    <!--not sure if i will need js at all so i wiped all webaudio stuff from it-->
-    <!--this took me way too long to figure out-->
-    <div>
-        <iframe src="https://drive.google.com/file/d/1JQEZHT2QAay0hlA4TWxNGtzwBGGBW7E4/preview" width="420" height="60"></iframe>
-    </div>
-    <div><a href="https://docs.google.com/uc?export=download&id=1JQEZHT2QAay0hlA4TWxNGtzwBGGBW7E4">Download </div>
+    <h1>WACCA Song Viewer</h1>
+    <select id="songSelect">
+        <option>Select a Song</option>
+    </select>
+    <h2>Song Info</h2>
+    <div id="displayInfo"></div>
+
 </body>
 </html>

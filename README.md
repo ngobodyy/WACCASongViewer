@@ -1,0 +1,2 @@
+This project is dedicated to Javaguru, who passed away the week of 4/7/2025. He is likely the sole reason this project exists in the first place, as he reverse engineered WACCA music files and allowed them to be converted to standard audio formats and edited. I never knew him personally, but I deeply appreciate the work he did for the WACCA modding community.
+I hope he rests well.
