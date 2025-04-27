@@ -3,7 +3,7 @@ export const waccaSongs = {
     song1: {
       id: 3,
       title: "Rainbow Dream",
-      titleEnglish: null,
+      titleEnglish: "test",
       artist: "DJ Genki feat. Yukacco",
       gameVersion: 1,
       bpm: 180,
