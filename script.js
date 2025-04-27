@@ -29,9 +29,9 @@ dropdown.addEventListener("change", (event)=>{
         `
     }
     document.getElementById("displayInfo3").innerHTML = `
-        <h3>${waccaSongs[songKey].artist}</h3>
-        <img class=albumart src="/WACCA_Songs/img/${waccaSongs[songKey].imageName}">
-        <div></div>
-        <audio controls src="/WACCA_Songs/audio/${waccaSongs[songKey].audioPath}"></audio>
+        <h3>Song ID: ${waccaSongs[songKey].id}</h3>
+        <h3>Category: ${waccaSongs[songKey].category}</h3>
+        <h3>Release Date: ${waccaSongs[songKey].releaseDate}</h3>
+        <h3>Song BPM: ${waccaSongs[songKey].bpm}</h3>
     `
 })
